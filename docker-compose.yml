@@ -18,7 +18,7 @@ services:
     image: counters:latest
     build:
       context: counter
-      dockerfile: counter.dockerfile
+      dockerfile: Dockerfile
     ports:
       - "5001:80"
     environment:
